@@ -7,3 +7,5 @@ Much of the code is courtesy of [ProducerMatt](https://github.com/ProducerMatt/S
 Functions that the book expects you to implement are implemented here as foo-answer. When defining your own versions, keep in mind that to test a function that use your version of something, you need to redefine the function also, otherwise it will use the functions within the module itself. In other words, if you want to define the function below, in order to make the function square-limit care about your below, you need to also redefine square-limit to use your version of below.  
 
 At the moment, the code gets you far enough to be able print the square limit of a wave painter in repl. Invoke (paint-lines (square-limit wave-answer 4)) to test.
+
+To use the module, download sicp-piclang.scm, load it into your repl and invoke (use-modules (sicp-piclang))
